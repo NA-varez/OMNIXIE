@@ -486,6 +486,12 @@
         "via_diameter": 0.5842,
         "via_drill": 0.3048,
         "wire_width": 6
+      },
+      {
+        "name": "Differential",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
       }
     ],
     "meta": {
