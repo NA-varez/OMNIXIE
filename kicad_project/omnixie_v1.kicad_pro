@@ -491,7 +491,17 @@
     "meta": {
       "version": 4
     },
-    "net_colors": null,
+    "net_colors": {
+      "+3V3": "rgb(255, 153, 0)",
+      "+5V": "rgb(255, 0, 255)",
+      "/HV_1": "rgb(255, 0, 0)",
+      "D+": "rgb(255, 255, 0)",
+      "D-": "rgb(255, 255, 0)",
+      "GND": "rgb(132, 132, 132)",
+      "HIGHVOLTAGE": "rgb(255, 0, 0)",
+      "I2C_SCL": "rgb(0, 132, 0)",
+      "I2C_SDA": "rgb(0, 132, 0)"
+    },
     "netclass_assignments": null,
     "netclass_patterns": []
   },
@@ -610,7 +620,7 @@
       "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Value"
+      "sort_field": "Reference"
     },
     "connection_grid_size": 50.0,
     "drawing": {
