@@ -4,5 +4,5 @@
   (lib (name "nixiemisc")(type "KiCad")(uri "C:/Users/21nic/OneDrive/Desktop/NIXIE/KiCAD/Eagle-and-KiCAD-Nixie-Libs-master/nixiemisc.kicad_sym")(options "")(descr ""))
   (lib (name "nixies-us")(type "KiCad")(uri "C:/Users/21nic/OneDrive/Desktop/NIXIE/KiCAD/Eagle-and-KiCAD-Nixie-Libs-master/nixies-us.kicad_sym")(options "")(descr ""))
   (lib (name "cnixxie")(type "KiCad")(uri "C:/Users/21nic/OneDrive/Desktop/NIXIE/KiCAD/cnixxie.kicad_sym")(options "")(descr ""))
-  (lib (name "NICKXIE")(type "KiCad")(uri "${KIPRJMOD}/NIXIE.kicad_sym")(options "")(descr ""))
+  (lib (name "NIXIE")(type "KiCad")(uri "${KIPRJMOD}/NIXIE.kicad_sym")(options "")(descr ""))
 )
