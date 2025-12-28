@@ -6876,7 +6876,7 @@
 	)
 	(text "Get a good list going for every part to buy including the little pins for smaller nixies\nAnd what I'm anticipating on putting on the board. Maybe change footprint to a footprint that I have or get some additional sized resistors with numbers on them"
 		(exclude_from_sim no)
-		(at 14.478 264.922 0)
+		(at 15.24 267.462 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21698,71 +21698,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 99.06 55.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b0a6fa87-9600-483d-b28f-59782fd388f6")
-		(property "Reference" "#PWR017"
-			(at 99.06 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 99.06 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 99.06 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 99.06 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 99.06 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "27d3f7a8-7111-4240-9dff-25710b94897d")
-		)
-		(instances
-			(project "omnixie_v1"
-				(path "/7791313b-9c26-4810-8a43-0e3a20909b33"
-					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "cnixxie:Flyback-ATB3225")
 		(at 100.33 160.02 270)
 		(unit 1)
@@ -22041,6 +21976,71 @@
 			(project "omnixie_v1"
 				(path "/7791313b-9c26-4810-8a43-0e3a20909b33"
 					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 99.06 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b7608c1f-75a6-4d36-a6b3-b2bd8067f476")
+		(property "Reference" "#PWR017"
+			(at 99.06 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 98.806 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 99.06 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b2a60f81-7222-4adf-a16b-392d01d904b9")
+		)
+		(instances
+			(project "omnixie_v1"
+				(path "/7791313b-9c26-4810-8a43-0e3a20909b33"
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -23690,7 +23690,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e43865cd-8a74-4caa-a103-acd49fec4013")
-		(property "Reference" "D8"
+		(property "Reference" "D3"
 			(at 118.11 95.1864 90)
 			(effects
 				(font
@@ -23743,7 +23743,7 @@
 		(instances
 			(project "omnixie_v1"
 				(path "/7791313b-9c26-4810-8a43-0e3a20909b33"
-					(reference "D8")
+					(reference "D3")
 					(unit 1)
 				)
 			)

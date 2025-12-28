@@ -112,13 +112,13 @@
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
         "track_angle": "error",
-        "track_dangling": "warning",
+        "track_dangling": "error",
         "track_segment_length": "error",
         "track_width": "error",
         "tracks_crossing": "error",
         "unconnected_items": "error",
         "unresolved_variable": "error",
-        "via_dangling": "warning",
+        "via_dangling": "error",
         "zones_intersect": "error"
       },
       "rules": {
@@ -508,6 +508,7 @@
     "net_colors": {
       "+3V3": "rgb(255, 153, 0)",
       "+5V": "rgb(255, 0, 255)",
+      "+5V_FLY": "rgb(255, 0, 255)",
       "/HV_1": "rgb(255, 0, 0)",
       "D+": "rgb(255, 255, 0)",
       "D-": "rgb(255, 255, 0)",
