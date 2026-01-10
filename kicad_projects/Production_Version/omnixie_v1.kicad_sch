@@ -6876,7 +6876,7 @@
 	)
 	(text "Get a good list going for every part to buy including the little pins for smaller nixies\nAnd what I'm anticipating on putting on the board. Maybe change footprint to a footprint that I have or get some additional sized resistors with numbers on them"
 		(exclude_from_sim no)
-		(at 15.24 267.462 0)
+		(at -91.186 269.494 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7005,6 +7005,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5ddb8c0a-c41e-4e86-91d9-3320bee532dc")
+	)
+	(junction
+		(at 279.4 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "612d3ff5-9de1-45d2-a3a1-596214ba9030")
 	)
 	(junction
 		(at 39.37 85.09)
@@ -7518,6 +7524,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 149.86) (xy 91.44 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f37e52c-faf5-4756-9a6d-996799fa326e")
+	)
+	(wire
+		(pts
 			(xy 262.89 88.9) (xy 262.89 91.44)
 		)
 		(stroke
@@ -7908,7 +7924,7 @@
 	)
 	(wire
 		(pts
-			(xy 340.36 50.8) (xy 354.33 50.8)
+			(xy 337.82 50.8) (xy 354.33 50.8)
 		)
 		(stroke
 			(width 0)
@@ -12963,7 +12979,7 @@
 		(uuid "6a7cfd11-3ec7-498e-ab53-ec2523f74bef")
 	)
 	(label "VIN_1"
-		(at 93.98 152.4 0)
+		(at 92.71 152.4 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15806,13 +15822,78 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 337.82 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "04d6821a-8001-4174-9512-57e5dd89475e")
+		(property "Reference" "#PWR045"
+			(at 337.82 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3_JUMP"
+			(at 337.566 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 337.82 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 337.82 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 337.82 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0d1a6951-f7e6-4b6d-b005-27e3ae466f59")
+		)
+		(instances
+			(project "omnixie_v1"
+				(path "/7791313b-9c26-4810-8a43-0e3a20909b33"
+					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "MASTER_SYMBOLS:Fiducial")
 		(at 212.09 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "068571e5-d15e-43e8-a605-6cc9b09550cf")
 		(property "Reference" "FID10"
@@ -16009,8 +16090,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "06ea7cfa-97c1-4eaf-bac7-6de0a31b5ee4")
 		(property "Reference" "FID14"
@@ -16408,8 +16489,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "193a5956-8cf1-4d36-8ad2-edaf4e87e57f")
 		(property "Reference" "FID9"
@@ -21698,6 +21779,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 279.4 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ad697da3-e572-4368-8f0c-f3b7cad7b332")
+		(property "Reference" "#PWR034"
+			(at 279.4 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3_JUMP"
+			(at 279.146 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 279.4 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 279.4 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 279.4 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9d9fe3c3-fe78-4025-863e-f46360c5159a")
+		)
+		(instances
+			(project "omnixie_v1"
+				(path "/7791313b-9c26-4810-8a43-0e3a20909b33"
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "cnixxie:Flyback-ATB3225")
 		(at 100.33 160.02 270)
 		(unit 1)
@@ -22116,8 +22262,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "ba2da663-89aa-4a29-822b-b73812cf08ae")
 		(property "Reference" "FID12"
@@ -22180,8 +22326,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "bb11cdb8-dbf5-4213-a768-08a8afc2b22d")
 		(property "Reference" "FID11"
@@ -22452,8 +22598,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "be70cbbe-5505-40d1-a7e7-b6aaef000327")
 		(property "Reference" "FID13"
@@ -23055,78 +23201,13 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 340.36 50.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cafd9af3-ac88-4a1a-8459-3a1fa38927bf")
-		(property "Reference" "#PWR039"
-			(at 340.36 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 340.106 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 340.36 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 340.36 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 340.36 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "41fc7af6-babf-481f-9f9d-0ac7189528e2")
-		)
-		(instances
-			(project "omnixie_v1"
-				(path "/7791313b-9c26-4810-8a43-0e3a20909b33"
-					(reference "#PWR039")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 74.93 152.4 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(uuid "d27b3056-43d3-47cc-bc2c-9ab0be309923")
 		(property "Reference" "TP10"
 			(at 74.93 147.066 0)
@@ -23251,7 +23332,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 91.44 152.4 0)
+		(at 91.44 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23259,7 +23340,7 @@
 		(dnp no)
 		(uuid "d4db384c-a73a-4eec-bf87-b3ff9d3e96f0")
 		(property "Reference" "TP6"
-			(at 91.44 146.558 0)
+			(at 91.44 144.018 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23267,7 +23348,7 @@
 			)
 		)
 		(property "Value" "5005"
-			(at 91.186 144.018 0)
+			(at 91.186 141.478 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23275,7 +23356,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
-			(at 96.52 152.4 0)
+			(at 96.52 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23284,7 +23365,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 96.52 152.4 0)
+			(at 96.52 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23293,7 +23374,7 @@
 			)
 		)
 		(property "Description" "IINSENSE"
-			(at 91.44 152.4 0)
+			(at 91.44 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23623,8 +23704,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "e148cd02-3f78-47b0-9457-da0dc19558a6")
 		(property "Reference" "FID15"
