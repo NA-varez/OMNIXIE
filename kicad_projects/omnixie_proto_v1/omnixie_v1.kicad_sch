@@ -6874,20 +6874,6 @@
 		)
 		(uuid "d97d10a9-ec12-40be-975e-768cc26dfd80")
 	)
-	(text "Get a good list going for every part to buy including the little pins for smaller nixies\nAnd what I'm anticipating on putting on the board. Maybe change footprint to a footprint that I have or get some additional sized resistors with numbers on them"
-		(exclude_from_sim no)
-		(at -91.186 269.494 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.3556)
-				(bold yes)
-				(italic yes)
-			)
-			(justify left)
-		)
-		(uuid "dddf734b-e5a9-4760-b66c-c2c8255f4c40")
-	)
 	(text "Likely remove pinout on the right side of board"
 		(exclude_from_sim no)
 		(at 95.504 263.398 0)
@@ -15641,7 +15627,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+		(property "Footprint" "OMNIXIE:SOT-23-3-NO_SILK"
 			(at 261.62 232.41 0)
 			(effects
 				(font
@@ -15650,7 +15636,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 256.54 234.95 0)
 			(effects
 				(font
@@ -15659,7 +15645,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "N-MOSFET transistor, gate/source/drain"
+		(property "Description" ""
 			(at 256.54 234.95 0)
 			(effects
 				(font
@@ -15976,7 +15962,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:TQFN-24-1EP_4x4mm_P0.5mm_EP2.1x2.1mm_ThermalVias"
+		(property "Footprint" "OMNIXIE:PI4IOE5V6416ZDEX-TQFN24"
 			(at 278.13 68.58 0)
 			(effects
 				(font
@@ -16245,7 +16231,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 67.0052 160.02 0)
 			(effects
 				(font
@@ -16574,7 +16560,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+		(property "Footprint" "OMNIXIE:SOT-23-3-NO_SILK"
 			(at 232.41 232.41 0)
 			(effects
 				(font
@@ -16583,7 +16569,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 227.33 234.95 0)
 			(effects
 				(font
@@ -16592,7 +16578,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "N-MOSFET transistor, gate/source/drain"
+		(property "Description" ""
 			(at 227.33 234.95 0)
 			(effects
 				(font
@@ -16856,7 +16842,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+		(property "Footprint" "OMNIXIE:SOT-23-3-NO_SILK"
 			(at 135.89 232.41 0)
 			(effects
 				(font
@@ -16865,7 +16851,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 130.81 234.95 0)
 			(effects
 				(font
@@ -16874,7 +16860,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "N-MOSFET transistor, gate/source/drain"
+		(property "Description" ""
 			(at 130.81 234.95 0)
 			(effects
 				(font
@@ -17171,7 +17157,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+		(property "Footprint" "OMNIXIE:SOT-23-3-NO_SILK"
 			(at 200.66 232.41 0)
 			(effects
 				(font
@@ -17180,7 +17166,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 195.58 234.95 0)
 			(effects
 				(font
@@ -17189,7 +17175,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "N-MOSFET transistor, gate/source/drain"
+		(property "Description" ""
 			(at 195.58 234.95 0)
 			(effects
 				(font
@@ -18568,7 +18554,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+		(property "Footprint" "OMNIXIE:SOT-23-3-NO_SILK"
 			(at 323.85 232.41 0)
 			(effects
 				(font
@@ -18577,7 +18563,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 318.77 234.95 0)
 			(effects
 				(font
@@ -18586,7 +18572,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "N-MOSFET transistor, gate/source/drain"
+		(property "Description" ""
 			(at 318.77 234.95 0)
 			(effects
 				(font
@@ -19725,7 +19711,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 88.392 184.15 90)
 			(effects
 				(font
@@ -19859,7 +19845,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 130.302 181.61 90)
 			(effects
 				(font
@@ -19994,7 +19980,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+		(property "Footprint" "OMNIXIE:SOT-23-3-NO_SILK"
 			(at 355.6 233.68 0)
 			(effects
 				(font
@@ -20003,7 +19989,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 350.52 236.22 0)
 			(effects
 				(font
@@ -20012,7 +19998,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "N-MOSFET transistor, gate/source/drain"
+		(property "Description" ""
 			(at 350.52 236.22 0)
 			(effects
 				(font
@@ -20066,7 +20052,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+		(property "Footprint" "OMNIXIE:SOT-23-3-NO_SILK"
 			(at 384.81 233.68 0)
 			(effects
 				(font
@@ -20075,7 +20061,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 379.73 236.22 0)
 			(effects
 				(font
@@ -20084,7 +20070,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "N-MOSFET transistor, gate/source/drain"
+		(property "Description" ""
 			(at 379.73 236.22 0)
 			(effects
 				(font
@@ -20208,7 +20194,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+		(property "Footprint" "OMNIXIE:SOT-23-3-NO_SILK"
 			(at 168.91 232.41 0)
 			(effects
 				(font
@@ -20217,7 +20203,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 163.83 234.95 0)
 			(effects
 				(font
@@ -20226,7 +20212,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "N-MOSFET transistor, gate/source/drain"
+		(property "Description" ""
 			(at 163.83 234.95 0)
 			(effects
 				(font
@@ -20348,7 +20334,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 232.41 35.052 90)
 			(effects
 				(font
@@ -20692,7 +20678,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 130.302 171.45 90)
 			(effects
 				(font
@@ -20823,7 +20809,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 68.58 51.308 90)
 			(effects
 				(font
@@ -21199,7 +21185,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 132.08 101.6 0)
 			(effects
 				(font
@@ -21394,7 +21380,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 226.822 29.21 90)
 			(effects
 				(font
@@ -21597,7 +21583,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+		(property "Footprint" "OMNIXIE:SOT-23-3-NO_SILK"
 			(at 74.93 232.41 0)
 			(effects
 				(font
@@ -21606,7 +21592,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 69.85 234.95 0)
 			(effects
 				(font
@@ -21615,7 +21601,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "N-MOSFET transistor, gate/source/drain"
+		(property "Description" ""
 			(at 69.85 234.95 0)
 			(effects
 				(font
@@ -21669,7 +21655,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 100.0252 66.04 0)
 			(effects
 				(font
@@ -22411,7 +22397,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+		(property "Footprint" "OMNIXIE:SOT-23-3-NO_SILK"
 			(at 43.18 232.41 0)
 			(effects
 				(font
@@ -22420,7 +22406,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 38.1 234.95 0)
 			(effects
 				(font
@@ -22429,7 +22415,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "N-MOSFET transistor, gate/source/drain"
+		(property "Description" ""
 			(at 38.1 234.95 0)
 			(effects
 				(font
@@ -22547,7 +22533,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+		(property "Footprint" "OMNIXIE:SOT-23-3-NO_SILK"
 			(at 292.1 232.41 0)
 			(effects
 				(font
@@ -22556,7 +22542,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 287.02 234.95 0)
 			(effects
 				(font
@@ -22565,7 +22551,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "N-MOSFET transistor, gate/source/drain"
+		(property "Description" ""
 			(at 287.02 234.95 0)
 			(effects
 				(font
@@ -22746,7 +22732,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 68.58 50.292 90)
 			(effects
 				(font
@@ -23589,7 +23575,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 232.41 38.862 90)
 			(effects
 				(font
@@ -23858,7 +23844,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 86.0552 101.6 0)
 			(effects
 				(font
@@ -23993,7 +23979,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 115.57 101.6 0)
 			(effects
 				(font
@@ -24257,7 +24243,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+		(property "Footprint" "OMNIXIE:SOT-23-3-NO_SILK"
 			(at 73.66 88.265 0)
 			(effects
 				(font
@@ -24267,7 +24253,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.torexsemi.com/file/xc6206/XC6206.pdf"
+		(property "Datasheet" ""
 			(at 73.66 93.98 0)
 			(effects
 				(font
@@ -24276,7 +24262,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Positive 60-250mA Low Dropout Regulator, Fixed Output, SOT-23"
+		(property "Description" ""
 			(at 73.66 93.98 0)
 			(effects
 				(font
@@ -24394,7 +24380,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+		(property "Footprint" "OMNIXIE:SOT-23-3-NO_SILK"
 			(at 106.68 232.41 0)
 			(effects
 				(font
@@ -24403,7 +24389,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 101.6 234.95 0)
 			(effects
 				(font
@@ -24412,7 +24398,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "N-MOSFET transistor, gate/source/drain"
+		(property "Description" ""
 			(at 101.6 234.95 0)
 			(effects
 				(font
