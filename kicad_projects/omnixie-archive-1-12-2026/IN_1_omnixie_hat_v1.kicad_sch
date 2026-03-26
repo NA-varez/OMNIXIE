@@ -1,0 +1,41 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "9e4b7016-8660-48e1-bcda-bb86faca8fec")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "HIGHVOLTAGE"
+		(shape input)
+		(at 127 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0bfa03ba-d52e-4b03-8f22-36cf8499c197")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 127 83.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5e5f9005-e066-4df9-a69a-86bf1b2feed9")
+	)
+	(hierarchical_label "CATHODE BUS"
+		(shape input)
+		(at 127 73.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c1bb8a02-72fa-47af-9664-3474591814fe")
+	)
+)
