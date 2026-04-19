@@ -18,4 +18,7 @@ The default program should allow the user of the board to immediatly get the dev
 Via some qwiic connectors. Might have to be a custom i2c interface.
 
 
+A flyback seemed to be the most suitable approach because of the smallest amount of parts needed for it.
+
+
 WORK IN PROGRESS.
