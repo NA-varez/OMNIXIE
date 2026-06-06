@@ -5419,6 +5419,45 @@
 			(embedded_fonts no)
 		)
 	)
+	(circle
+		(center 111.76 67.31)
+		(radius 11.3592)
+		(stroke
+			(width 0.762)
+			(type solid)
+			(color 255 0 48 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 00e35635-dd8c-4141-b823-dc2ba8cc111e)
+	)
+	(circle
+		(center 292.1 154.94)
+		(radius 11.3592)
+		(stroke
+			(width 0.762)
+			(type solid)
+			(color 255 0 48 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 066a7486-39b1-481f-9ecc-f735dd63c606)
+	)
+	(circle
+		(center 93.98 179.07)
+		(radius 11.3592)
+		(stroke
+			(width 0.762)
+			(type solid)
+			(color 255 0 48 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 0e7bbc0b-a1fe-4b84-9487-b5403f67a85b)
+	)
 	(rectangle
 		(start 11.938 109.982)
 		(end 407.924 202.692)
@@ -5430,6 +5469,19 @@
 			(type none)
 		)
 		(uuid 1108c8e5-d4c7-4f89-bc87-8481f2601426)
+	)
+	(circle
+		(center 130.81 101.6)
+		(radius 11.3592)
+		(stroke
+			(width 0.762)
+			(type solid)
+			(color 255 0 48 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 6deb463d-a632-4fad-bb5a-9ae7d8577fe3)
 	)
 	(rectangle
 		(start 11.938 11.938)
@@ -5455,6 +5507,19 @@
 		)
 		(uuid 9c2b952d-6a3a-4e39-b674-bebc26464db6)
 	)
+	(circle
+		(center 39.37 59.69)
+		(radius 11.3592)
+		(stroke
+			(width 0.762)
+			(type solid)
+			(color 255 0 48 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid c2ac7186-e91b-4c8e-8ac1-730609daac7d)
+	)
 	(rectangle
 		(start 245.364 11.938)
 		(end 311.912 109.982)
@@ -5479,6 +5544,45 @@
 		)
 		(uuid d6c7327e-5527-4082-95ff-564624fd258a)
 	)
+	(circle
+		(center 115.57 102.87)
+		(radius 11.3592)
+		(stroke
+			(width 0.762)
+			(type solid)
+			(color 255 0 48 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid f5f1e7f2-2b64-420b-8fe3-7d95616a78fd)
+	)
+	(text ">.< LEDs are TOO BRIGHT. Increase resistance"
+		(exclude_from_sim no)
+		(at 58.166 -9.906 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+				(thickness 0.8)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "0095c22e-c159-494d-a4df-0d8ff2444267")
+	)
+	(text ">.< Footprint pin assignments wrong for flyback switching MOSFET"
+		(exclude_from_sim no)
+		(at 77.47 -29.972 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+				(thickness 0.8)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "0106e65b-eba2-428c-b281-a040b82af43c")
+	)
 	(text "High Voltage! Flyback!"
 		(exclude_from_sim no)
 		(at 107.95 124.46 0)
@@ -5490,6 +5594,19 @@
 			)
 		)
 		(uuid "07f684fc-5d57-4c72-8569-9d6510553f11")
+	)
+	(text ">.< Use a horizontal mount USB-C or at least put the vertical USB-C on the same side as the header pins and test loops \nso that on the bench you don't have wires bending up and around from the bottom of the board when the USB-C is plugged in"
+		(exclude_from_sim no)
+		(at 136.144 -53.848 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+				(thickness 0.8)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "0b4ef749-9c7a-42e9-b381-21186b0efa77")
 	)
 	(text "2.54mm Header Connections"
 		(exclude_from_sim no)
@@ -5553,6 +5670,19 @@
 		)
 		(uuid "26c1cd35-1250-4baa-832c-4bf7ba85e81c")
 	)
+	(text ">.< I am not confident that I will be able to drive the MOSFET I chose correctly with a 3.3V PWM"
+		(exclude_from_sim no)
+		(at 107.696 -41.402 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+				(thickness 0.8)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "2a281b00-dd06-40ea-8dde-a545ca22f159")
+	)
 	(text "MOSFET Cathode Drivers"
 		(exclude_from_sim no)
 		(at 210.82 214.63 0)
@@ -5604,6 +5734,19 @@
 			(justify left)
 		)
 		(uuid "39a256e8-8aac-4a6c-a9b5-f3424972e77e")
+	)
+	(text ">.< Might be worth it to get SMT test loops if space allows"
+		(exclude_from_sim no)
+		(at 72.136 -3.302 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+				(thickness 0.8)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "4034eda2-0051-46f4-b402-4cb3f4a9c0ae")
 	)
 	(text "USB Compatibility"
 		(exclude_from_sim no)
@@ -5683,6 +5826,19 @@
 		)
 		(uuid "5e60e1b9-1678-4426-ae71-b073f7d10f0c")
 	)
+	(text ">.< Board is WAY TOO SMALL for a first development prototype"
+		(exclude_from_sim no)
+		(at 74.168 -22.86 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+				(thickness 0.8)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "61f20a52-3753-4ac3-92d0-e7040396b8a1")
+	)
 	(text "USB-C INPUT"
 		(exclude_from_sim no)
 		(at 40.386 31.496 0)
@@ -5694,6 +5850,19 @@
 			)
 		)
 		(uuid "6e3164ee-b4b0-4dad-887d-9118c9a50b4d")
+	)
+	(text ">.< Pins 8 9 and 10 wrong pinout. I2C SDA and SCL defined on wrong pins."
+		(exclude_from_sim no)
+		(at 87.122 -36.576 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+				(thickness 0.8)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "6e57b200-770e-4117-be3c-8a0f5d799329")
 	)
 	(text "+3V3 LDO"
 		(exclude_from_sim no)
@@ -5799,6 +5968,19 @@
 		)
 		(uuid "9e9c6f35-6a06-412f-a08c-9720ff60f78a")
 	)
+	(text "REDLINE NOTES"
+		(exclude_from_sim no)
+		(at 55.118 -65.786 0)
+		(effects
+			(font
+				(size 7.62 7.62)
+				(thickness 1.524)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "9f1403b8-8928-4ece-b665-ef0139c71dd8")
+	)
 	(text "I2C via...\n"
 		(exclude_from_sim no)
 		(at 358.394 23.622 0)
@@ -5825,6 +6007,19 @@
 		)
 		(uuid "a382fa27-83b9-4eb3-8c7f-035cc121dc33")
 	)
+	(text ">.< Silkscreen WAY TOO SMALL to be easily legible from a reasonable distance"
+		(exclude_from_sim no)
+		(at 89.662 -16.256 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+				(thickness 0.8)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "a62e916f-d8db-4c1e-a620-d3faa965965a")
+	)
 	(text "I/O Expander"
 		(exclude_from_sim no)
 		(at 279.146 23.114 0)
@@ -5850,6 +6045,19 @@
 			(justify left)
 		)
 		(uuid "b8237e94-d894-46a6-8158-6e0a247dbe68")
+	)
+	(text ">.< Add redundant path for signals if connector would be very hard to probe on."
+		(exclude_from_sim no)
+		(at 91.44 -47.244 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+				(thickness 0.8)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "bc010932-4f1d-42a5-99f2-2e759f0069b7")
 	)
 	(text "OMNIXIE\n"
 		(exclude_from_sim no)
@@ -14111,7 +14319,7 @@
 			(uuid "49c793bf-a365-41a6-9adc-45f8b68a1471")
 		)
 		(instances
-			(project "nixie_v1"
+			(project "omnixie_v1"
 				(path "/7791313b-9c26-4810-8a43-0e3a20909b33"
 					(reference "Q7")
 					(unit 1)
@@ -14440,7 +14648,7 @@
 			(uuid "f1f09a2a-b10f-4704-8514-a0a072f06755")
 		)
 		(instances
-			(project ""
+			(project "omnixie_v1"
 				(path "/7791313b-9c26-4810-8a43-0e3a20909b33"
 					(reference "U3")
 					(unit 1)
@@ -14640,7 +14848,7 @@
 			(uuid "1e978ce3-084e-447d-b6d2-596f6a724aa3")
 		)
 		(instances
-			(project "nixie_v1"
+			(project "omnixie_v1"
 				(path "/7791313b-9c26-4810-8a43-0e3a20909b33"
 					(reference "#PWR05")
 					(unit 1)
@@ -14706,7 +14914,7 @@
 			(uuid "3b0ff195-7954-4601-a65b-4058b6ebd004")
 		)
 		(instances
-			(project ""
+			(project "omnixie_v1"
 				(path "/7791313b-9c26-4810-8a43-0e3a20909b33"
 					(reference "#PWR01")
 					(unit 1)
@@ -14842,7 +15050,7 @@
 			(uuid "f8d8699a-d612-4c1b-b13f-4a56467c1ea7")
 		)
 		(instances
-			(project "nixie_v1"
+			(project "omnixie_v1"
 				(path "/7791313b-9c26-4810-8a43-0e3a20909b33"
 					(reference "Q6")
 					(unit 1)
@@ -15052,7 +15260,7 @@
 			(uuid "c75a8778-71da-4523-988e-51ef5a487924")
 		)
 		(instances
-			(project "nixie_v1"
+			(project "omnixie_v1"
 				(path "/7791313b-9c26-4810-8a43-0e3a20909b33"
 					(reference "J2")
 					(unit 1)
@@ -15124,7 +15332,7 @@
 			(uuid "1585a261-29ee-4e38-968d-84f190ab1876")
 		)
 		(instances
-			(project "nixie_v1"
+			(project "omnixie_v1"
 				(path "/7791313b-9c26-4810-8a43-0e3a20909b33"
 					(reference "Q3")
 					(unit 1)
@@ -15218,7 +15426,7 @@
 			(uuid "c58ccfe2-ce26-42c8-8b9b-2a3b2059b599")
 		)
 		(instances
-			(project ""
+			(project "omnixie_v1"
 				(path "/7791313b-9c26-4810-8a43-0e3a20909b33"
 					(reference "J1")
 					(unit 1)
@@ -15291,7 +15499,7 @@
 			(uuid "369e7fa5-ea92-43ac-96c3-1ec3d7f12854")
 		)
 		(instances
-			(project ""
+			(project "omnixie_v1"
 				(path "/7791313b-9c26-4810-8a43-0e3a20909b33"
 					(reference "J6")
 					(unit 1)
@@ -15439,7 +15647,7 @@
 			(uuid "f2fb0bdb-421e-499f-b646-5fe27b56f9ab")
 		)
 		(instances
-			(project "nixie_v1"
+			(project "omnixie_v1"
 				(path "/7791313b-9c26-4810-8a43-0e3a20909b33"
 					(reference "Q5")
 					(unit 1)
@@ -15504,7 +15712,7 @@
 			(uuid "8b54ce07-0c93-4583-9322-2f3475ee2608")
 		)
 		(instances
-			(project "nixie_v1"
+			(project "omnixie_v1"
 				(path "/7791313b-9c26-4810-8a43-0e3a20909b33"
 					(reference "#PWR031")
 					(unit 1)
@@ -15637,7 +15845,7 @@
 			(uuid "5f06354d-cfbc-4f4d-9a03-86beb35925bd")
 		)
 		(instances
-			(project ""
+			(project "omnixie_v1"
 				(path "/7791313b-9c26-4810-8a43-0e3a20909b33"
 					(reference "U1")
 					(unit 1)
@@ -15703,7 +15911,7 @@
 			(uuid "06351147-a796-4fee-9683-041c1af08edd")
 		)
 		(instances
-			(project "nixie_v1"
+			(project "omnixie_v1"
 				(path "/7791313b-9c26-4810-8a43-0e3a20909b33"
 					(reference "#PWR02")
 					(unit 1)
@@ -15970,7 +16178,7 @@
 			(uuid "6b6dabbc-4858-4149-b81c-42c3f8165a98")
 		)
 		(instances
-			(project "nixie_v1"
+			(project "omnixie_v1"
 				(path "/7791313b-9c26-4810-8a43-0e3a20909b33"
 					(reference "#PWR014")
 					(unit 1)
@@ -16104,7 +16312,7 @@
 			(uuid "4b85fe03-9995-4d9a-97e9-000a44ca6d18")
 		)
 		(instances
-			(project "nixie_v1"
+			(project "omnixie_v1"
 				(path "/7791313b-9c26-4810-8a43-0e3a20909b33"
 					(reference "#PWR026")
 					(unit 1)
@@ -16170,7 +16378,7 @@
 			(uuid "7286d8f4-c072-4e49-97d9-8241155e5e29")
 		)
 		(instances
-			(project "nixie_v1"
+			(project "omnixie_v1"
 				(path "/7791313b-9c26-4810-8a43-0e3a20909b33"
 					(reference "#PWR024")
 					(unit 1)
@@ -16436,7 +16644,7 @@
 			(uuid "b6bac558-246b-490c-8705-2caa34ee626b")
 		)
 		(instances
-			(project "nixie_v1"
+			(project "omnixie_v1"
 				(path "/7791313b-9c26-4810-8a43-0e3a20909b33"
 					(reference "#PWR012")
 					(unit 1)
@@ -16502,7 +16710,7 @@
 			(uuid "a235e0f9-d735-45d6-a8ba-1dcb051ca97d")
 		)
 		(instances
-			(project "nixie_v1"
+			(project "omnixie_v1"
 				(path "/7791313b-9c26-4810-8a43-0e3a20909b33"
 					(reference "#PWR022")
 					(unit 1)
@@ -16634,7 +16842,7 @@
 			(uuid "c866edf8-41c5-4985-b1b7-50f4bc9756b8")
 		)
 		(instances
-			(project "nixie_v1"
+			(project "omnixie_v1"
 				(path "/7791313b-9c26-4810-8a43-0e3a20909b33"
 					(reference "#PWR03")
 					(unit 1)
@@ -16772,7 +16980,7 @@
 			(uuid "4b04f466-9900-4798-aad8-f3c6c82fdd97")
 		)
 		(instances
-			(project "nixie_v1"
+			(project "omnixie_v1"
 				(path "/7791313b-9c26-4810-8a43-0e3a20909b33"
 					(reference "Q9")
 					(unit 1)
@@ -16989,7 +17197,7 @@
 			(uuid "aed36778-006f-4d7a-a02d-7544fabd2ec4")
 		)
 		(instances
-			(project "nixie_v1"
+			(project "omnixie_v1"
 				(path "/7791313b-9c26-4810-8a43-0e3a20909b33"
 					(reference "#PWR011")
 					(unit 1)
@@ -17054,7 +17262,7 @@
 			(uuid "7fccafa5-73ca-4895-b54b-34c18565eeb9")
 		)
 		(instances
-			(project "nixie_v1"
+			(project "omnixie_v1"
 				(path "/7791313b-9c26-4810-8a43-0e3a20909b33"
 					(reference "#PWR030")
 					(unit 1)
@@ -17129,7 +17337,7 @@
 			(uuid "e34ff2b9-f407-45a4-865e-eb50c1a595ce")
 		)
 		(instances
-			(project "nixie_v1"
+			(project "omnixie_v1"
 				(path "/7791313b-9c26-4810-8a43-0e3a20909b33"
 					(reference "J3")
 					(unit 1)
@@ -17195,7 +17403,7 @@
 			(uuid "15d379b1-8722-4575-aab2-512863a43a3c")
 		)
 		(instances
-			(project "nixie_v1"
+			(project "omnixie_v1"
 				(path "/7791313b-9c26-4810-8a43-0e3a20909b33"
 					(reference "#PWR06")
 					(unit 1)
@@ -17327,7 +17535,7 @@
 			(uuid "8b79a54f-c53d-4c50-bbbe-b46d6a58d729")
 		)
 		(instances
-			(project "nixie_v1"
+			(project "omnixie_v1"
 				(path "/7791313b-9c26-4810-8a43-0e3a20909b33"
 					(reference "#PWR010")
 					(unit 1)
@@ -17437,7 +17645,7 @@
 			(uuid "bc0184b8-ae3d-497b-ab6a-658b620380c8")
 		)
 		(instances
-			(project ""
+			(project "omnixie_v1"
 				(path "/7791313b-9c26-4810-8a43-0e3a20909b33"
 					(reference "J8")
 					(unit 1)
@@ -17502,7 +17710,7 @@
 			(uuid "e1b44ffe-8316-4d47-ae25-cb3b2c19fcde")
 		)
 		(instances
-			(project "nixie_v1"
+			(project "omnixie_v1"
 				(path "/7791313b-9c26-4810-8a43-0e3a20909b33"
 					(reference "#PWR028")
 					(unit 1)
@@ -17567,7 +17775,7 @@
 			(uuid "d45a3211-35ab-4b7f-ad2e-0e130b1efea4")
 		)
 		(instances
-			(project "nixie_v1"
+			(project "omnixie_v1"
 				(path "/7791313b-9c26-4810-8a43-0e3a20909b33"
 					(reference "#PWR029")
 					(unit 1)
@@ -17697,7 +17905,7 @@
 			(uuid "b27056ba-c69f-4886-8747-4e6861e7308f")
 		)
 		(instances
-			(project "nixie_v1"
+			(project "omnixie_v1"
 				(path "/7791313b-9c26-4810-8a43-0e3a20909b33"
 					(reference "#PWR032")
 					(unit 1)
@@ -17902,7 +18110,7 @@
 			(uuid "5b0bbda5-11ef-4a7a-a448-d6aff8363cc6")
 		)
 		(instances
-			(project "nixie_v1"
+			(project "omnixie_v1"
 				(path "/7791313b-9c26-4810-8a43-0e3a20909b33"
 					(reference "#PWR08")
 					(unit 1)
@@ -17974,7 +18182,7 @@
 			(uuid "ba6267b5-4525-496b-8084-225007bfc734")
 		)
 		(instances
-			(project "nixie_v1"
+			(project "omnixie_v1"
 				(path "/7791313b-9c26-4810-8a43-0e3a20909b33"
 					(reference "Q11")
 					(unit 1)
@@ -18046,7 +18254,7 @@
 			(uuid "62ee02be-5aaf-4362-ba62-f47f083dc7a7")
 		)
 		(instances
-			(project "nixie_v1"
+			(project "omnixie_v1"
 				(path "/7791313b-9c26-4810-8a43-0e3a20909b33"
 					(reference "Q10")
 					(unit 1)
@@ -18188,7 +18396,7 @@
 			(uuid "13939604-6886-4d1b-9e98-2962509abbb3")
 		)
 		(instances
-			(project "nixie_v1"
+			(project "omnixie_v1"
 				(path "/7791313b-9c26-4810-8a43-0e3a20909b33"
 					(reference "Q4")
 					(unit 1)
@@ -18730,7 +18938,7 @@
 			(uuid "c3d2d70b-9ace-420f-9313-f4ee2bccaf94")
 		)
 		(instances
-			(project "nixie_v1"
+			(project "omnixie_v1"
 				(path "/7791313b-9c26-4810-8a43-0e3a20909b33"
 					(reference "R13")
 					(unit 1)
@@ -18966,7 +19174,7 @@
 			(uuid "640f5152-a8dd-49d3-8d09-52d96dc6e1d3")
 		)
 		(instances
-			(project ""
+			(project "omnixie_v1"
 				(path "/7791313b-9c26-4810-8a43-0e3a20909b33"
 					(reference "J4")
 					(unit 1)
@@ -19101,7 +19309,7 @@
 			(uuid "f50639a3-c12a-4c44-a01a-51e08ab90c35")
 		)
 		(instances
-			(project "nixie_v1"
+			(project "omnixie_v1"
 				(path "/7791313b-9c26-4810-8a43-0e3a20909b33"
 					(reference "#PWR027")
 					(unit 1)
@@ -19168,7 +19376,7 @@
 			(uuid "0ee12d39-0978-461b-a874-ad8d3449e053")
 		)
 		(instances
-			(project "nixie_v1"
+			(project "omnixie_v1"
 				(path "/7791313b-9c26-4810-8a43-0e3a20909b33"
 					(reference "R15")
 					(unit 1)
@@ -19302,7 +19510,7 @@
 			(uuid "46fe26df-ae0c-4e1d-9961-51e54de1d2d0")
 		)
 		(instances
-			(project "nixie_v1"
+			(project "omnixie_v1"
 				(path "/7791313b-9c26-4810-8a43-0e3a20909b33"
 					(reference "#PWR07")
 					(unit 1)
@@ -19374,7 +19582,7 @@
 			(uuid "33caf6e6-a75e-49b0-820f-05b4c60150ec")
 		)
 		(instances
-			(project ""
+			(project "omnixie_v1"
 				(path "/7791313b-9c26-4810-8a43-0e3a20909b33"
 					(reference "Q1")
 					(unit 1)
@@ -19725,7 +19933,7 @@
 			(uuid "039e2f9f-b2d0-44ac-a945-50de5edf02e2")
 		)
 		(instances
-			(project "nixie_v1"
+			(project "omnixie_v1"
 				(path "/7791313b-9c26-4810-8a43-0e3a20909b33"
 					(reference "#PWR021")
 					(unit 1)
@@ -20190,7 +20398,7 @@
 			(uuid "ccf27cda-2443-4123-9149-2dff9b95dfae")
 		)
 		(instances
-			(project "nixie_v1"
+			(project "omnixie_v1"
 				(path "/7791313b-9c26-4810-8a43-0e3a20909b33"
 					(reference "Q0")
 					(unit 1)
@@ -20326,7 +20534,7 @@
 			(uuid "5634eea4-4bdf-4e1e-ad3a-d8d0d7ffba53")
 		)
 		(instances
-			(project "nixie_v1"
+			(project "omnixie_v1"
 				(path "/7791313b-9c26-4810-8a43-0e3a20909b33"
 					(reference "Q8")
 					(unit 1)
@@ -20455,7 +20663,7 @@
 			(uuid "0f232eb8-9ddb-45d0-9fec-a485003b0516")
 		)
 		(instances
-			(project "nixie_v1"
+			(project "omnixie_v1"
 				(path "/7791313b-9c26-4810-8a43-0e3a20909b33"
 					(reference "#PWR025")
 					(unit 1)
@@ -20522,7 +20730,7 @@
 			(uuid "411e5ed8-f881-4fca-87ce-3fb008972d2b")
 		)
 		(instances
-			(project "nixie_v1"
+			(project "omnixie_v1"
 				(path "/7791313b-9c26-4810-8a43-0e3a20909b33"
 					(reference "R14")
 					(unit 1)
@@ -20656,7 +20864,7 @@
 			(uuid "d85bb35c-032a-4860-bb99-db1cd3fcc105")
 		)
 		(instances
-			(project "nixie_v1"
+			(project "omnixie_v1"
 				(path "/7791313b-9c26-4810-8a43-0e3a20909b33"
 					(reference "#PWR09")
 					(unit 1)
@@ -20864,7 +21072,7 @@
 			(uuid "cf0c0b02-fc2f-4162-9d4d-6e8a85cca79e")
 		)
 		(instances
-			(project "nixie_v1"
+			(project "omnixie_v1"
 				(path "/7791313b-9c26-4810-8a43-0e3a20909b33"
 					(reference "#PWR013")
 					(unit 1)
@@ -20994,7 +21202,7 @@
 			(uuid "513308c3-e02f-42e9-ba43-69eb04bf41ab")
 		)
 		(instances
-			(project "nixie_v1"
+			(project "omnixie_v1"
 				(path "/7791313b-9c26-4810-8a43-0e3a20909b33"
 					(reference "#PWR04")
 					(unit 1)
@@ -21665,7 +21873,7 @@
 			(uuid "569c97b3-a6f3-4652-9d1c-84a2dd068e9e")
 		)
 		(instances
-			(project "nixie_v1"
+			(project "omnixie_v1"
 				(path "/7791313b-9c26-4810-8a43-0e3a20909b33"
 					(reference "#PWR020")
 					(unit 1)
@@ -21731,7 +21939,7 @@
 			(uuid "840946ff-cde9-4b44-844d-5a0328aa96de")
 		)
 		(instances
-			(project "nixie_v1"
+			(project "omnixie_v1"
 				(path "/7791313b-9c26-4810-8a43-0e3a20909b33"
 					(reference "#PWR023")
 					(unit 1)
@@ -21803,7 +22011,7 @@
 			(uuid "39aa669d-1c4c-4817-a311-b535296e0ef8")
 		)
 		(instances
-			(project ""
+			(project "omnixie_v1"
 				(path "/7791313b-9c26-4810-8a43-0e3a20909b33"
 					(reference "U4")
 					(unit 1)
@@ -21875,7 +22083,7 @@
 			(uuid "30d9a6dd-543d-4f5e-bee0-b94356e66e78")
 		)
 		(instances
-			(project "nixie_v1"
+			(project "omnixie_v1"
 				(path "/7791313b-9c26-4810-8a43-0e3a20909b33"
 					(reference "Q2")
 					(unit 1)
