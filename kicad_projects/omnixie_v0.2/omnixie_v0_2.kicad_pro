@@ -61,12 +61,12 @@
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
           "min_clearance": 0.2032,
-          "min_island_area": 9.9999993548,
-          "min_thickness": 0.25,
-          "pad_connection": 1,
+          "min_island_area": 9.99999999996,
+          "min_thickness": 0.2286,
+          "pad_connection": 2,
           "remove_islands": 0,
-          "thermal_relief_gap": 0.5,
-          "thermal_relief_spoke_width": 0.5
+          "thermal_relief_gap": 0.508,
+          "thermal_relief_spoke_width": 0.508
         }
       },
       "diff_pair_dimensions": [
@@ -570,7 +570,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "quackerboard_final_fab_outputs/PDF/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -735,7 +735,7 @@
         "uuid": "7791313b-9c26-4810-8a43-0e3a20909b33"
       }
     ],
-    "used_designators": "#PWR46,J7,TP15-25",
+    "used_designators": "TP15-25,R17,J7,#PWR46",
     "variants": []
   },
   "sheets": [

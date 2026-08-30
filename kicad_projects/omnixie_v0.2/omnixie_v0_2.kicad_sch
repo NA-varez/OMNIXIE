@@ -6148,19 +6148,6 @@
 		)
 		(uuid "07f684fc-5d57-4c72-8569-9d6510553f11")
 	)
-	(text ">.< Use a horizontal mount USB-C or at least put the vertical USB-C on the same side as the header pins and test loops \n    so that on the bench you don't have wires bending up and around from the bottom of the board when the USB-C is plugged in"
-		(exclude_from_sim no)
-		(at 133.096 -17.272 0)
-		(effects
-			(font
-				(size 2.5 2.5)
-				(thickness 0.8)
-				(bold yes)
-				(color 0 0 0 1)
-			)
-		)
-		(uuid "0b4ef749-9c7a-42e9-b381-21186b0efa77")
-	)
 	(text "2.54mm Header Connections"
 		(exclude_from_sim no)
 		(at 359.41 32.766 0)
@@ -6469,19 +6456,6 @@
 		)
 		(uuid "9e9c6f35-6a06-412f-a08c-9720ff60f78a")
 	)
-	(text "REDLINE NOTES"
-		(exclude_from_sim no)
-		(at 56.896 -29.972 0)
-		(effects
-			(font
-				(size 7.62 7.62)
-				(thickness 1.524)
-				(bold yes)
-				(color 255 0 0 1)
-			)
-		)
-		(uuid "9f1403b8-8928-4ece-b665-ef0139c71dd8")
-	)
 	(text "I2C via...\n"
 		(exclude_from_sim no)
 		(at 358.394 23.622 0)
@@ -6767,12 +6741,6 @@
 		(uuid "6bc17020-b9c4-49b5-9c12-8e46eb0c858e")
 	)
 	(junction
-		(at 55.88 44.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "72b0b338-ea32-4098-8168-08df7a61b8f3")
-	)
-	(junction
 		(at 39.37 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6789,12 +6757,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "868ffaec-fcd7-409c-9080-7df494a9570a")
-	)
-	(junction
-		(at 96.52 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "941a7161-8a8a-4956-a57b-6c456f2bab26")
 	)
 	(junction
 		(at 90.17 179.07)
@@ -6851,32 +6813,62 @@
 		(uuid "f2b2ea29-15c2-4a6c-81f0-b163af3d57bb")
 	)
 	(junction
-		(at 96.52 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f9015f4f-a089-48d9-a651-3716889dc2c0")
-	)
-	(junction
 		(at 228.6 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fc17a8d5-6a2a-472f-b6d0-9242bcfa417d")
 	)
 	(no_connect
+		(at 293.37 83.82)
+		(uuid "03d23be1-3573-4751-bfc0-309525cc4989")
+	)
+	(no_connect
+		(at 293.37 86.36)
+		(uuid "07f3c933-2e7a-41ae-8de8-867da442b9a4")
+	)
+	(no_connect
+		(at 293.37 88.9)
+		(uuid "09b4dee5-8073-4683-bdf1-0289216534e3")
+	)
+	(no_connect
 		(at 223.52 190.5)
 		(uuid "0ac3f94d-8678-47b4-8e00-8b5394432ceb")
+	)
+	(no_connect
+		(at 353.06 160.02)
+		(uuid "0e370c26-8d63-4e94-b708-feab95c070cc")
 	)
 	(no_connect
 		(at 195.58 190.5)
 		(uuid "1015a375-d9c0-448b-b296-ce198d591d4b")
 	)
 	(no_connect
+		(at 353.06 162.56)
+		(uuid "1b9a9dd0-cb47-4526-85e9-eba4698d7059")
+	)
+	(no_connect
 		(at 214.63 181.61)
 		(uuid "3c9290d1-b98b-4561-ad89-7b71f4a21186")
 	)
 	(no_connect
+		(at 353.06 157.48)
+		(uuid "3d7ea8ae-ae2c-4ee1-8f06-34dbe6a7f765")
+	)
+	(no_connect
+		(at 340.36 160.02)
+		(uuid "443f09e8-c3f4-4f11-95a7-22580cc2af54")
+	)
+	(no_connect
 		(at 223.52 181.61)
 		(uuid "4de6b491-0fdf-4ee9-9fdd-b872149549e9")
+	)
+	(no_connect
+		(at 340.36 165.1)
+		(uuid "6c49fe0e-d579-49f7-a247-8cace90a8ffe")
+	)
+	(no_connect
+		(at 293.37 81.28)
+		(uuid "765587fb-62c5-4e62-8679-5c2dc27fdacb")
 	)
 	(no_connect
 		(at 204.47 190.5)
@@ -6901,6 +6893,10 @@
 	(no_connect
 		(at 204.47 181.61)
 		(uuid "cf8be622-7c34-4a9a-a10f-48e90a5b6287")
+	)
+	(no_connect
+		(at 353.06 165.1)
+		(uuid "d496bed4-a1bd-40b8-912a-60299858b941")
 	)
 	(wire
 		(pts
@@ -7074,7 +7070,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 76.2) (xy 96.52 76.2)
+			(xy 88.9 76.2) (xy 104.14 76.2)
 		)
 		(stroke
 			(width 0)
@@ -7484,6 +7480,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 179.07) (xy 87.63 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5130fc4f-1628-4642-af82-c205c1d3d54a")
+	)
+	(wire
+		(pts
 			(xy 262.89 88.9) (xy 262.89 91.44)
 		)
 		(stroke
@@ -7704,16 +7710,6 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 72.39) (xy 102.87 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7cfd24bd-b526-49c4-a31f-db667606e2ed")
-	)
-	(wire
-		(pts
 			(xy 292.1 152.4) (xy 309.88 152.4)
 		)
 		(stroke
@@ -7844,16 +7840,6 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 76.2) (xy 104.14 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e77b98e-40ba-4b24-b42c-85f26d1d22c6")
-	)
-	(wire
-		(pts
 			(xy 31.75 85.09) (xy 39.37 85.09)
 		)
 		(stroke
@@ -7874,7 +7860,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 44.45) (xy 59.69 44.45)
+			(xy 54.61 44.45) (xy 59.69 44.45)
 		)
 		(stroke
 			(width 0)
@@ -7934,7 +7920,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 72.39) (xy 96.52 72.39)
+			(xy 88.9 72.39) (xy 102.87 72.39)
 		)
 		(stroke
 			(width 0)
@@ -8224,7 +8210,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 179.07) (xy 87.63 179.07)
+			(xy 73.66 179.07) (xy 76.2 179.07)
 		)
 		(stroke
 			(width 0)
@@ -8331,16 +8317,6 @@
 			(type default)
 		)
 		(uuid "f4e5d978-f366-416c-a9c1-74d1f4293818")
-	)
-	(wire
-		(pts
-			(xy 54.61 44.45) (xy 55.88 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f68f8a4b-a822-4251-b135-d7e120b72198")
 	)
 	(wire
 		(pts
@@ -13108,16 +13084,6 @@
 		)
 		(uuid "6a7cfd11-3ec7-498e-ab53-ec2523f74bef")
 	)
-	(label "VIN_1"
-		(at 92.71 152.4 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7a0a3ef6-6ac8-4b15-be0d-afa4a8b59200")
-	)
 	(label "D_2"
 		(at 120.65 166.37 0)
 		(effects
@@ -13137,6 +13103,16 @@
 			(justify left bottom)
 		)
 		(uuid "b385c783-e7f1-43fc-b7f7-2c895349fe5b")
+	)
+	(label "VIN_1"
+		(at 93.98 152.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ca1ecda1-e445-4b41-ae38-8f0ecf7a4925")
 	)
 	(label "D+_1"
 		(at 219.71 40.64 0)
@@ -13281,30 +13257,6 @@
 		(uuid "0db2b36f-5c22-4cac-9ff3-ef2f2d7d399a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 307.5434 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "PD0"
-		(shape input)
-		(at 90.17 34.29 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "10cc14ce-c05d-4ed4-bbcf-1cefaf906ab6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 96.9047 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13503,29 +13455,6 @@
 			)
 		)
 	)
-	(global_label "CATH5"
-		(shape input)
-		(at 340.36 160.02 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2e7cf3d5-1d9d-4c2f-b338-61eef1ea3678")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 440.36 35.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-	)
 	(global_label "DIG_6"
 		(shape input)
 		(at 222.25 234.95 180)
@@ -13620,30 +13549,6 @@
 			)
 		)
 	)
-	(global_label "CATHDP"
-		(shape input)
-		(at 353.06 160.02 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3a68b2fa-0b77-4fc7-8a88-ebefc55d1593")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 363.2419 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "PA1"
 		(shape input)
 		(at 114.3 34.29 180)
@@ -13705,30 +13610,6 @@
 		(uuid "3f83d612-a8e1-4ab9-97d4-1fde67763e14")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 223.9047 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "PA2"
-		(shape input)
-		(at 90.17 36.83 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "403d3c15-e1ef-48b3-840c-52237f56a660")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 96.7233 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13855,29 +13736,6 @@
 			)
 		)
 	)
-	(global_label "CATH7"
-		(shape input)
-		(at 340.36 165.1 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "48bf39f7-a005-4171-b966-39b155d4f9b4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 440.36 30.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-	)
 	(global_label "CATH2"
 		(shape input)
 		(at 340.36 152.4 180)
@@ -13898,54 +13756,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-	)
-	(global_label "CATH8"
-		(shape input)
-		(at 353.06 165.1 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "53ef946a-4d4c-40df-bd33-c01fc16d0248")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 361.9114 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "CATHAUX"
-		(shape input)
-		(at 353.06 157.48 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "557ae2fb-9611-4de6-a114-9103efba4dda")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 364.3305 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 	)
@@ -14188,9 +13998,9 @@
 			)
 		)
 	)
-	(global_label "PD7"
+	(global_label "PC0"
 		(shape input)
-		(at 90.17 41.91 0)
+		(at 90.17 36.83 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14198,9 +14008,9 @@
 			)
 			(justify left)
 		)
-		(uuid "6da1cf91-3b42-4a41-b61b-7805497900dc")
+		(uuid "6f31fd5e-4431-4993-814b-05b6846a64f4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 96.9047 41.91 0)
+			(at 96.9047 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14232,30 +14042,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-	)
-	(global_label "PD6"
-		(shape input)
-		(at 90.17 44.45 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "71a8e266-f7af-4535-9700-53a442a3925d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 96.9047 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 	)
@@ -14399,9 +14185,9 @@
 			)
 		)
 	)
-	(global_label "PC6"
+	(global_label "PC3"
 		(shape input)
-		(at 90.17 24.13 0)
+		(at 90.17 34.29 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14409,9 +14195,9 @@
 			)
 			(justify left)
 		)
-		(uuid "84395b4f-4b09-475e-b41c-3a6b9397d2a4")
+		(uuid "843a36fa-75e1-473b-835e-c57de04172d7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 96.9047 24.13 0)
+			(at 96.9047 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14443,6 +14229,54 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+	)
+	(global_label "PC5"
+		(shape input)
+		(at 90.17 31.75 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8dc1d7d7-eea3-4634-b93d-247001cc6c96")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 96.9047 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "PD6"
+		(shape input)
+		(at 90.17 21.59 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8e5fba76-6098-42dd-88b0-ba32f431ab0b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 96.9047 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -14636,54 +14470,6 @@
 			)
 		)
 	)
-	(global_label "PC1"
-		(shape input)
-		(at 90.17 29.21 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "99c120c5-9874-4039-828d-ce8951a1839a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 96.9047 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "PC5"
-		(shape input)
-		(at 90.17 26.67 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9ed7c2dc-ca29-4970-b894-d3ba414289ff")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 96.9047 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "I2C_SCL"
 		(shape input)
 		(at 356.87 49.53 180)
@@ -14780,30 +14566,6 @@
 			)
 		)
 	)
-	(global_label "PC0"
-		(shape input)
-		(at 90.17 31.75 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b2f2da45-5ac5-4247-a2e7-e43520417f2f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 96.9047 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "DIG_DP"
 		(shape input)
 		(at 297.18 78.74 0)
@@ -14817,6 +14579,30 @@
 		(uuid "baa78ddf-74b4-415f-9cae-c9f083b53445")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 306.8176 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "PD0"
+		(shape input)
+		(at 90.17 39.37 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bb9a2619-f1b1-4758-a442-254cff65d510")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 96.9047 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14946,30 +14732,6 @@
 			)
 		)
 	)
-	(global_label "PD2"
-		(shape input)
-		(at 90.17 21.59 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "cb1319f5-6603-4f70-9ad7-7fc03f9ccd3b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 96.9047 21.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "CATH6"
 		(shape input)
 		(at 229.87 228.6 180)
@@ -14990,6 +14752,30 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+	)
+	(global_label "PD7"
+		(shape input)
+		(at 90.17 24.13 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cc655b0b-0d84-4e32-8d68-715874f96c43")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 96.9047 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -15077,6 +14863,30 @@
 		(uuid "d4869813-77e6-49ca-bbaf-856d2632c260")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 243.3176 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "PD2"
+		(shape input)
+		(at 90.17 26.67 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d63bad76-0bbf-4221-8c9e-1fc901e4273b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 96.9047 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15252,6 +15062,30 @@
 			)
 		)
 	)
+	(global_label "PA2"
+		(shape input)
+		(at 90.17 41.91 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "df5d579c-5e57-4b0e-9ea9-686ddedc83af")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 96.7233 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "I2C_SCL"
 		(shape input)
 		(at 265.43 50.8 180)
@@ -15276,9 +15110,9 @@
 			)
 		)
 	)
-	(global_label "CATH9"
+	(global_label "PA1"
 		(shape input)
-		(at 353.06 162.56 0)
+		(at 90.17 44.45 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15286,9 +15120,9 @@
 			)
 			(justify left)
 		)
-		(uuid "e27fa32e-e94b-49cf-b0b1-eb5f52f1cb42")
+		(uuid "e1df5e15-c2c2-4eec-95c6-511fb705702c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 361.9114 162.56 0)
+			(at 96.7233 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15586,6 +15420,30 @@
 			)
 		)
 	)
+	(global_label "PC6"
+		(shape input)
+		(at 90.17 29.21 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fa61c7c5-2df3-403c-8d9e-d119039904c2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 96.9047 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "D+"
 		(shape input)
 		(at 67.31 68.58 0)
@@ -15654,30 +15512,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-	)
-	(global_label "PA1"
-		(shape input)
-		(at 90.17 39.37 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "fd6e6e52-76ed-464d-a911-1fa5a78f31a8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 96.7233 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 	)
@@ -16066,7 +15900,7 @@
 				)
 			)
 		)
-		(property "Value" "+3V3_JUMP"
+		(property "Value" "+3V3"
 			(at 340.106 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16486,6 +16320,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 66.04 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "3499d59e-3355-4b59-b86e-a64ab4e6729a")
 		)
@@ -16883,6 +16728,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 83.82 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8c6e20d4-df40-4d72-85bf-48b653517e81")
 		)
@@ -17118,6 +16974,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "connector/SMD_single_row_plus_mounting_pad"
+			(at 337.82 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "f6e0145b-2a18-4408-a664-ad57756cc5a5")
 		)
@@ -17290,6 +17157,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "connector/pin_header_socket"
+			(at 85.09 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "512d9576-94df-4118-922c-5e0244befac7")
 		)
@@ -17396,6 +17274,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "connector/pin_header_socket"
+			(at 196.85 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "95d97954-303c-44fe-abf4-1bf32e53006f")
 		)
@@ -17471,6 +17360,17 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 381 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "connector/pin_header_socket"
 			(at 381 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -17729,6 +17629,17 @@
 		)
 		(property "LCSC" "C5299908"
 			(at 154.94 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "package/no_lead"
+			(at 165.1 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18035,82 +17946,6 @@
 			(project "omnixie_v0_2"
 				(path "/7791313b-9c26-4810-8a43-0e3a20909b33"
 					(reference "TP18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 55.88 44.45 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "321ae264-5a53-4acc-9e51-19a70cf82cdd")
-		(property "Reference" "TP21"
-			(at 55.88 38.608 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "5005"
-			(at 56.134 36.322 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
-			(at 60.96 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 60.96 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 55.88 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "71b18241-19ae-41a3-83eb-115347de6dc2")
-		)
-		(instances
-			(project "omnixie_v0_2"
-				(path "/7791313b-9c26-4810-8a43-0e3a20909b33"
-					(reference "TP21")
 					(unit 1)
 				)
 			)
@@ -18800,6 +18635,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 127 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 127 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -19777,6 +19623,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "connector/SMD_single_row_plus_mounting_pad"
+			(at 384.81 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "e7d4b921-1eb3-48de-ae0d-d49e44838a68")
 		)
@@ -20528,6 +20385,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 90.17 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c60e9585-422a-4478-977c-fbc5d43c0620")
 		)
@@ -20610,6 +20478,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 132.08 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "86a8efc8-47be-4a78-b874-3357f2a574d9")
 		)
@@ -20620,82 +20499,6 @@
 			(project "omnixie_v0_2"
 				(path "/7791313b-9c26-4810-8a43-0e3a20909b33"
 					(reference "R11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 96.52 72.39 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7535fe9c-5191-4727-8341-fac04fd3e085")
-		(property "Reference" "TP16"
-			(at 96.52 66.548 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "5005"
-			(at 96.774 64.262 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
-			(at 101.6 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 101.6 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 96.52 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5e444da6-8403-4e5f-b3a5-a5a5ab6eedc5")
-		)
-		(instances
-			(project "omnixie_v0_2"
-				(path "/7791313b-9c26-4810-8a43-0e3a20909b33"
-					(reference "TP16")
 					(unit 1)
 				)
 			)
@@ -21259,6 +21062,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 232.41 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9ec9c978-0de0-452c-940e-a147f15a610c")
 		)
@@ -21330,6 +21144,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 121.92 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 121.92 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -21499,6 +21324,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 147.32 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "681a4c80-fa14-4266-a1ba-b0e3d95d64bc")
 		)
@@ -21571,6 +21407,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 132.08 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 132.08 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -21726,6 +21573,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 68.58 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 68.58 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -22090,6 +21948,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 132.08 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "810137c8-833f-4ba6-95d4-0e6bd93a0ffa")
 		)
@@ -22236,6 +22105,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 228.6 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 228.6 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -22569,6 +22449,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 85.09 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "20567bb5-42b9-44d1-8e92-9e4da7b8e13b")
 		)
@@ -22579,6 +22470,98 @@
 			(project "omnixie_v0_2"
 				(path "/7791313b-9c26-4810-8a43-0e3a20909b33"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cnixxie:R")
+		(at 80.01 179.07 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "a3412eba-e7c5-46f5-9066-158534219494")
+		(property "Reference" "R17"
+			(at 82.042 175.006 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "JUMPER"
+			(at 83.82 176.784 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 80.01 180.848 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 80.01 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 80.01 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b6976172-53eb-4403-9a86-e912da28d7be")
+		)
+		(pin "2"
+			(uuid "3b479b59-d507-485d-8c3a-317a941ea130")
+		)
+		(instances
+			(project "omnixie_v0_2"
+				(path "/7791313b-9c26-4810-8a43-0e3a20909b33"
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -22810,82 +22793,6 @@
 			(project "omnixie_v0_2"
 				(path "/7791313b-9c26-4810-8a43-0e3a20909b33"
 					(reference "TP17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 96.52 76.2 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ace90b82-ab9a-40db-b92c-d806ce26d92f")
-		(property "Reference" "TP15"
-			(at 100.838 78.232 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "5005"
-			(at 100.838 80.01 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
-			(at 91.44 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 91.44 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 96.52 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2af9cfb8-cdcf-4854-8241-d58a89770887")
-		)
-		(instances
-			(project "omnixie_v0_2"
-				(path "/7791313b-9c26-4810-8a43-0e3a20909b33"
-					(reference "TP15")
 					(unit 1)
 				)
 			)
@@ -24146,6 +24053,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 68.58 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e1f40785-4997-4024-81ae-d0897d3f4e24")
 		)
@@ -24461,6 +24379,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 60.96 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 60.96 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -25016,6 +24945,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 232.41 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "665fe747-933d-49b6-b126-53151cf4d17a")
 		)
@@ -25251,6 +25191,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 115.57 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "64a10101-b31f-4b6a-a7d1-99e31c85aaf0")
 		)
@@ -25321,6 +25272,17 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x08, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 345.44 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "connector/pin_header_socket"
 			(at 345.44 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -25455,6 +25417,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 85.09 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "8c2e2938-12d1-4040-92ac-fe6537357a6b")
 		)
@@ -25529,6 +25502,17 @@
 		)
 		(property "Description" ""
 			(at 115.57 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 115.57 101.6 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
