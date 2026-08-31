@@ -1,0 +1,6 @@
+[submodule "code/rv003usb"]
+	path = code/rv003usb
+	url = https://github.com/cnlohr/rv003usb.git
+[submodule "code/rawdraw"]
+	path = code/rawdraw
+	url = https://github.com/cntools/rawdraw
