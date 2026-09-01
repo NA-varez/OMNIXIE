@@ -1,11 +1,11 @@
-all : omnixie_dashboard
+all : basic_host
 
 RV003USB:=../../rv003usb
 RAWDRAW:=../../rawdraw
 
-omnixie_dashboard : omnixie_dashboard.c
+basic_host : basic_host.c
 	gcc -o $@ $^ -I$(RV003USB)/ch32fun/minichlink -I$(RAWDRAW) \
 		-lX11 -lXinerama -lXext -lGL -lpthread -lm -ludev -g -Wall
 
 clean :
-	rm -rf omnixie_dashboard
+	rm -rf basic_host

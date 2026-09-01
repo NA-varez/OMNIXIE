@@ -13,6 +13,7 @@
 //     [2..5] = uptime in ms, little-endian
 //     [6] = current command
 //     [7] = current blink half-period, in 10ms ticks
+//     [8..9] = PA1 ADC reading, little-endian, 10-bit (0-1023)
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -29,8 +30,10 @@
 
 #define USB_VENDOR_ID  0x1209
 #define USB_PRODUCT_ID 0xd003
-#define REPORT_ID      0xaa 	// What does 0xaa report ID correlate to? Does it have to be this specific ID?
-#define MAILBOX_LEN    8
+#define REPORT_ID      0xaa
+#define MAILBOX_LEN    10
+#define ADC_HISTORY    200 // ~4s of samples at the 20ms poll rate below
+#define ADC_VREF       3.3f
 
 enum { CMD_LED_OFF = 0, CMD_LED_ON = 1, CMD_LED_BLINK = 2 };
 
@@ -56,14 +59,14 @@ static void DrawButton( const Button * b, int active )
 	CNFGTackRectangle( b->x0, b->y0, b->x1, b->y1 );
 	CNFGColor( 0xffffffff );
 	CNFGPenX = b->x0 + 8;
-	CNFGPenY = b->y0 + (b->y1 - b->y0)/2 - 4; // How does CNFGPenX and Y work?
+	CNFGPenY = b->y0 + (b->y1 - b->y0)/2 - 4;
 	CNFGDrawText( b->label, 2 );
 }
 
 static void SendCommand( hid_device * hd, uint8_t cmd, uint8_t param )
 {
 	uint8_t buf[MAILBOX_LEN] = {0};
-	buf[0] = REPORT_ID; // What report ID numebrs can I use for this rv003usb? Why is there a report ID?
+	buf[0] = REPORT_ID;
 	buf[1] = cmd;
 	buf[2] = param;
 	int r = hid_send_feature_report( hd, buf, sizeof(buf) ); // TX
@@ -73,7 +76,7 @@ static void SendCommand( hid_device * hd, uint8_t cmd, uint8_t param )
 
 int main()
 {
-	CNFGSetup( "OMNIXIE USB Control Panel", 480, 320 );
+	CNFGSetup( "OMNIXIE USB Control Panel", 480, 420 );
 
 	Button btn_off  = { 20, 60, 140, 100, "LED OFF" };
 	Button btn_on   = { 160, 60, 280, 100, "LED ON" };
@@ -81,8 +84,12 @@ int main()
 	Button btn_slower = { 300, 120, 360, 160, "-" }; // - 10ms
 	Button btn_faster = { 380, 120, 440, 160, "+" }; // + 10ms
 
-	uint8_t command = 0xff, led_state = 0, period_ticks = 0; // What is command doing?
+	uint8_t command = 0xff; // sentinel: no report received yet, doesn't match any real CMD_*
+	uint8_t led_state = 0, period_ticks = 0;
 	uint32_t uptime_ms = 0;
+	uint16_t adc_value = 0;
+	uint16_t adc_history[ADC_HISTORY] = {0};
+	int adc_history_head = 0;
 	int connected = 0;
 	hid_device * hd = NULL;
 	int was_down = 0;
@@ -105,7 +112,7 @@ int main()
 			uint8_t buf[MAILBOX_LEN];
 			memset( buf, 0, sizeof(buf) );
 			buf[0] = REPORT_ID;
-			int r = hid_get_feature_report( hd, buf, sizeof(buf) ); // RX from MCU?
+			int r = hid_get_feature_report( hd, buf, sizeof(buf) ); // RX from MCU
 			if( r >= MAILBOX_LEN )
 			{
 				connected = 1;
@@ -113,6 +120,9 @@ int main()
 				uptime_ms = (uint32_t)buf[2] | ((uint32_t)buf[3]<<8) | ((uint32_t)buf[4]<<16) | ((uint32_t)buf[5]<<24);
 				command = buf[6];
 				period_ticks = buf[7];
+				adc_value = (uint16_t)buf[8] | ((uint16_t)buf[9]<<8);
+				adc_history[adc_history_head] = adc_value;
+				adc_history_head = (adc_history_head + 1) % ADC_HISTORY;
 			}
 			else
 			{
@@ -178,6 +188,30 @@ int main()
 		CNFGColor( 0xccccccff );
 		CNFGPenX = 20; CNFGPenY = 260;
 		CNFGDrawText( status, 2 );
+
+		{
+			char adc_label[64];
+			snprintf( adc_label, sizeof(adc_label), "ADC (PA1): %4d  (%.2fV)", adc_value, adc_value / 1023.0f * ADC_VREF );
+			CNFGColor( 0xccccccff );
+			CNFGPenX = 20; CNFGPenY = 300;
+			CNFGDrawText( adc_label, 2 );
+
+			int gx0 = 20, gy0 = 330, gx1 = 460, gy1 = 400;
+			CNFGColor( 0x404040ff );
+			CNFGDrawBox( gx0, gy0, gx1, gy1 );
+
+			CNFGColor( 0x40c0ffff );
+			int i;
+			int px = 0, py = 0;
+			for( i = 0; i < ADC_HISTORY; i++ )
+			{
+				uint16_t sample = adc_history[(adc_history_head + i) % ADC_HISTORY];
+				int x = gx0 + i * (gx1 - gx0) / (ADC_HISTORY - 1);
+				int y = gy1 - (int)( (sample / 1023.0f) * (gy1 - gy0) );
+				if( i > 0 ) CNFGTackSegment( px, py, x, y );
+				px = x; py = y;
+			}
+		}
 
 		CNFGSwapBuffers();
 		usleep( 20000 ); // ~50Hz poll; feature reports are control transfers, no need to hammer them
