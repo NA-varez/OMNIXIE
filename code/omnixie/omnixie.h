@@ -21,6 +21,10 @@ void omnixie_init() {
 /**
  * TODO
  * 
+ * How bout you learn how to program a PID in firmware
+ * Efficient PID code in firmware. Or at least get the bones
+ * understand the bones then use cnixxie to do the optimizations
+ * 
  * Driver for I2C GPIO Expander
  * 
  * Try simulating PID control on-chip? MATLAB is what this is for really
